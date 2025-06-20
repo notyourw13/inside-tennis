@@ -16,3 +16,85 @@
       top: 0;
       background: #ffffffcc;
       backdrop-filter: blur(10px);
+      padding: 1em;
+      display: flex;
+      justify-content: space-around;
+      font-weight: bold;
+      border-bottom: 1px solid #eee;
+      z-index: 10;
+    }
+    header a {
+      color: #000;
+      text-decoration: none;
+    }
+    section {
+      padding: 3em 1em;
+      max-width: 700px;
+      margin: auto;
+    }
+    h1, h2 {
+      margin-top: 0;
+    }
+    .hero {
+      text-align: center;
+      background: url('https://source.unsplash.com/800x600/?tennis') center/cover no-repeat;
+      color: white;
+      padding: 6em 1em;
+    }
+    .hero h1 {
+      font-size: 2em;
+      margin-bottom: 0.3em;
+    }
+    .cta-button {
+      background: black;
+      color: white;
+      padding: 1em 2em;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 2em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="#about">О нас</a>
+    <a href="#training">Тренировки</a>
+    <a href="#events">Мероприятия</a>
+    <a href="#tournaments">Турниры</a>
+    <a href="#join">Присоединиться</a>
+  </header>
+
+  <section class="hero">
+    <h1>Inside Tennis</h1>
+    <p>Не просто теннис — это коммьюнити</p>
+  </section>
+
+  <section id="about">
+    <h2>О нас</h2>
+    <p>Мы — не просто теннисная школа. Мы создаём сообщество успешных, амбициозных и открытых людей, которые встречаются на корте, чтобы расти, общаться и играть в удовольствие.</p>
+  </section>
+
+  <section id="training">
+    <h2>Тренировки</h2>
+    <p>Индивидуальные и групповые тренировки с тренерами высокого уровня. Программы под любой уровень: от новичков до продвинутых игроков.</p>
+  </section>
+
+  <section id="events">
+    <h2>Мероприятия</h2>
+    <p>Вечеринки, завтраки, поездки и мастер-классы — всё для укрепления коммьюнити и расширения круга общения.</p>
+  </section>
+
+  <section id="tournaments">
+    <h2>Турниры</h2>
+    <p>Регулярные турниры между участниками клуба. Без давления, но с азартом и подарками.</p>
+  </section>
+
+  <section id="join">
+    <h2>Присоединиться</h2>
+    <p>Готов стать частью нашей теннисной тусовки?</p>
+    <a class="cta-button" href="https://t.me/your_bot_link" target="_blank">Перейти в Telegram</a>
+  </section>
+</body>
+</html>
